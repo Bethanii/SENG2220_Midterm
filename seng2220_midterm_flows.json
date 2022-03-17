@@ -1,0 +1,809 @@
+[
+    {
+        "id": "8c4c2aa1c3571ed6",
+        "type": "tab",
+        "label": "Question 29 | Step 1",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "b4115fd81e1f2d4a",
+        "type": "tab",
+        "label": "Question 29 | Step 2",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "e7314e585eede611",
+        "type": "tab",
+        "label": "Question 29 | Step 3",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "b7f0ba3446efc674",
+        "type": "tab",
+        "label": "Question 29 | Step 4",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "108e45df6493868c",
+        "type": "tab",
+        "label": "Question 29 | Step 5",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "2be39559eb797d9a",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "10.43.10.10",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "4a19bb301981abcd",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "2e2f2fd9882f4083",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "09399a212e6eadfb",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "9c46c00ee9736f43",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "2e2f2fd9882f4083",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f203aa3e8bbef311",
+        "type": "ui_group",
+        "name": "Midterm Dashboard ",
+        "tab": "2e2f2fd9882f4083",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "10ce66ec20b1d702",
+        "type": "mongodb",
+        "hostname": "10.43.10.10",
+        "topology": "direct",
+        "connectOptions": "",
+        "port": "27017",
+        "db": "hambetn_farmbeats_data",
+        "name": ""
+    },
+    {
+        "id": "13326679dfe299c3",
+        "type": "mqtt in",
+        "z": "8c4c2aa1c3571ed6",
+        "name": "",
+        "topic": "jaxberg/farmbeats/json",
+        "qos": "2",
+        "datatype": "json",
+        "broker": "2be39559eb797d9a",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 560,
+        "y": 140,
+        "wires": [
+            [
+                "07b01779d192c7cc"
+            ]
+        ]
+    },
+    {
+        "id": "f9b99f46e1f9d88b",
+        "type": "mqtt out",
+        "z": "8c4c2aa1c3571ed6",
+        "name": "",
+        "topic": "jaxberg/farmbeats/json",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "2be39559eb797d9a",
+        "x": 820,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "7a9331acc4412a28",
+        "type": "inject",
+        "z": "8c4c2aa1c3571ed6",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"timestamp\": \"today\", \"air_temp\":65, \"humidity\":50, \"soil_temp\":45}",
+        "payloadType": "json",
+        "x": 530,
+        "y": 320,
+        "wires": [
+            [
+                "f9b99f46e1f9d88b"
+            ]
+        ]
+    },
+    {
+        "id": "07b01779d192c7cc",
+        "type": "debug",
+        "z": "8c4c2aa1c3571ed6",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 810,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "0e493c8fb353e225",
+        "type": "mqtt in",
+        "z": "b4115fd81e1f2d4a",
+        "name": "",
+        "topic": "jaxberg/farmbeats/csv",
+        "qos": "0",
+        "datatype": "utf8",
+        "broker": "2be39559eb797d9a",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 580,
+        "y": 160,
+        "wires": [
+            [
+                "9cb62eb2dd3d9d15"
+            ]
+        ]
+    },
+    {
+        "id": "25ab836fcb732ff8",
+        "type": "mqtt out",
+        "z": "b4115fd81e1f2d4a",
+        "name": "",
+        "topic": "jaxberg/farmbeats/csv",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "2be39559eb797d9a",
+        "x": 960,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "a02f47893cdda211",
+        "type": "inject",
+        "z": "b4115fd81e1f2d4a",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"timestamp\": \"today\", \"air_temp\":65, \"humidity\":50, \"soil_temp\":45}",
+        "payloadType": "str",
+        "x": 590,
+        "y": 360,
+        "wires": [
+            [
+                "25ab836fcb732ff8"
+            ]
+        ]
+    },
+    {
+        "id": "9cb62eb2dd3d9d15",
+        "type": "debug",
+        "z": "b4115fd81e1f2d4a",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 930,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "153de97091eebce4",
+        "type": "mqtt in",
+        "z": "e7314e585eede611",
+        "name": "",
+        "topic": "jaxberg/farmbeats/json",
+        "qos": "2",
+        "datatype": "json",
+        "broker": "2be39559eb797d9a",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 160,
+        "y": 320,
+        "wires": [
+            [
+                "e4a63d668ffc7a0f",
+                "1c5f898d40633205",
+                "553a9f93b451cdff",
+                "14d6064cc5caa5c5",
+                "af07fa0745b2d113",
+                "9f465276074b1b31"
+            ]
+        ]
+    },
+    {
+        "id": "88553a3385ae9856",
+        "type": "mqtt out",
+        "z": "e7314e585eede611",
+        "name": "",
+        "topic": "jaxberg/farmbeats/json",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "2be39559eb797d9a",
+        "x": 520,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "f727662bced8f10a",
+        "type": "inject",
+        "z": "e7314e585eede611",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"timestamp\": \"today\", \"air_temp\":65, \"humidity\":50, \"soil_temp\":45}",
+        "payloadType": "json",
+        "x": 170,
+        "y": 560,
+        "wires": [
+            [
+                "88553a3385ae9856",
+                "2e26bf3a36a87817"
+            ]
+        ]
+    },
+    {
+        "id": "e4a63d668ffc7a0f",
+        "type": "debug",
+        "z": "e7314e585eede611",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 570,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "2e26bf3a36a87817",
+        "type": "debug",
+        "z": "e7314e585eede611",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 490,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "1c5f898d40633205",
+        "type": "ui_text",
+        "z": "e7314e585eede611",
+        "group": "f203aa3e8bbef311",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Soil Temperature: ",
+        "format": "{{msg.payload.soil_temp}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 550,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "553a9f93b451cdff",
+        "type": "ui_text",
+        "z": "e7314e585eede611",
+        "group": "f203aa3e8bbef311",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Air Temperature (Celcius): ",
+        "format": "{{msg.payload.air_temp}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 610,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "14d6064cc5caa5c5",
+        "type": "ui_text",
+        "z": "e7314e585eede611",
+        "group": "f203aa3e8bbef311",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Soil Moisture: ",
+        "format": "{{msg.payload.soil_moisture}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 540,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "af07fa0745b2d113",
+        "type": "ui_gauge",
+        "z": "e7314e585eede611",
+        "name": "",
+        "group": "f203aa3e8bbef311",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Air Temperature (Celcius): ",
+        "label": "units",
+        "format": "{{msg.payload.air_temp}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 590,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "9f465276074b1b31",
+        "type": "ui_text",
+        "z": "e7314e585eede611",
+        "group": "f203aa3e8bbef311",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Air Humidity: ",
+        "format": "{{msg.payload.air_humidity}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 490,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "d7bf2c7e3f720832",
+        "type": "mqtt in",
+        "z": "b7f0ba3446efc674",
+        "name": "",
+        "topic": "jaxberg/farmbeats/csv",
+        "qos": "0",
+        "datatype": "utf8",
+        "broker": "2be39559eb797d9a",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 420,
+        "y": 200,
+        "wires": [
+            [
+                "321d680377719767",
+                "8badda1a19759bea"
+            ]
+        ]
+    },
+    {
+        "id": "6dfe9d8e0aaa515f",
+        "type": "mqtt out",
+        "z": "b7f0ba3446efc674",
+        "name": "",
+        "topic": "jaxberg/farmbeats/csv",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "2be39559eb797d9a",
+        "x": 800,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "f7f7546c52968349",
+        "type": "inject",
+        "z": "b7f0ba3446efc674",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"timestamp\": \"today\", \"air_temp\":65, \"humidity\":50, \"soil_temp\":45}",
+        "payloadType": "str",
+        "x": 530,
+        "y": 540,
+        "wires": [
+            [
+                "6dfe9d8e0aaa515f"
+            ]
+        ]
+    },
+    {
+        "id": "321d680377719767",
+        "type": "debug",
+        "z": "b7f0ba3446efc674",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 790,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "8badda1a19759bea",
+        "type": "file",
+        "z": "b7f0ba3446efc674",
+        "name": "",
+        "filename": "C:\\Users\\hambetn\\Midterm\\FarmBeats_Values.txt",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 810,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "01704f98af24a3e3",
+        "type": "mqtt in",
+        "z": "108e45df6493868c",
+        "name": "",
+        "topic": "jaxberg/farmbeats/json",
+        "qos": "2",
+        "datatype": "json",
+        "broker": "2be39559eb797d9a",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 520,
+        "y": 120,
+        "wires": [
+            [
+                "df471d00e05ce924",
+                "6b48ba5f29f8e69d"
+            ]
+        ]
+    },
+    {
+        "id": "9ea6820cac0be463",
+        "type": "mqtt out",
+        "z": "108e45df6493868c",
+        "name": "",
+        "topic": "jaxberg/farmbeats/json",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "2be39559eb797d9a",
+        "x": 800,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "e062188b2455f872",
+        "type": "inject",
+        "z": "108e45df6493868c",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"timestamp\": \"today\", \"air_temp\":65, \"humidity\":50, \"soil_temp\":45}",
+        "payloadType": "json",
+        "x": 510,
+        "y": 360,
+        "wires": [
+            [
+                "9ea6820cac0be463",
+                "accb2013caa83a56"
+            ]
+        ]
+    },
+    {
+        "id": "df471d00e05ce924",
+        "type": "debug",
+        "z": "108e45df6493868c",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 790,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "accb2013caa83a56",
+        "type": "debug",
+        "z": "108e45df6493868c",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 690,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "6b48ba5f29f8e69d",
+        "type": "mongodb out",
+        "z": "108e45df6493868c",
+        "mongodb": "10ce66ec20b1d702",
+        "name": "",
+        "collection": "hambetn_greenhouse_conditions",
+        "payonly": false,
+        "upsert": false,
+        "multi": false,
+        "operation": "store",
+        "x": 1000,
+        "y": 200,
+        "wires": []
+    }
+]
